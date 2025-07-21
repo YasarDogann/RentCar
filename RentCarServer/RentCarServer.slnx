@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/" Id="7fa2b140-eec1-4c5d-ac23-d1b4542c9265">
+    <Project Path="src/RentCarServer.Application/RentCarServer.Application.csproj" Id="13a54b70-a1c4-4bc8-b46e-7d055cb14caa" />
     <Project Path="src/RentCarServer.Domain/RentCarServer.Domain.csproj" Id="5e83c489-7ee0-4d09-b58e-1725717de284" />
   </Folder>
 </Solution>
