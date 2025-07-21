@@ -4,18 +4,18 @@ using RentCarServer.Application.Behaviors;
 using TS.MediatR;
 
 namespace RentCarServer.Application;
-public static class RegistrarService
+public static class ServiceRegistrar
 {
     public static IServiceCollection AddApplication(this IServiceCollection services)
     {
         services.AddMediatR(cfr =>
         {
-            cfr.RegisterServicesFromAssembly(typeof(RegistrarService).Assembly);
+            cfr.RegisterServicesFromAssembly(typeof(ServiceRegistrar).Assembly);
             cfr.AddOpenBehavior(typeof(ValidationBehavior<,>)); // ressponce olduğu için "," koy response olmasa "," koyulmazdı
             cfr.AddOpenBehavior(typeof(ValidationBehavior<,>));
         });
 
-        services.AddValidatorsFromAssembly(typeof(RegistrarService).Assembly); // Fluent Validation oto çalışması için eklemek lazım
+        services.AddValidatorsFromAssembly(typeof(ServiceRegistrar).Assembly); // Fluent Validation oto çalışması için eklemek lazım
 
         return services;
     }
