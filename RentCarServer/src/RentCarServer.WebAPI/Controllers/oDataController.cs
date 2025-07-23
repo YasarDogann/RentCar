@@ -8,13 +8,13 @@ namespace RentCarServer.WebAPI.Controllers;
 [Route("api/[controller]")]
 [ApiController]
 [EnableQuery]
-public class oDataController : ControllerBase
+public class ODataController : ControllerBase
 {
     public static IEdmModel GetEdmModel()
     {
         ODataConventionModelBuilder builder = new();
         builder.EnableLowerCamelCase();
         //builder.EntitySet<UserResponse>("users");
-        return builder.GetEdmModel();
+        return builder.GetEdmModel();  
     }
 }

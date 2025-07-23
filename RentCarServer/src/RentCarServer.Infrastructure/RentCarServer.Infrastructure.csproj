@@ -15,15 +15,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Scrutor" Version="6.1.0" />
+    <PackageReference Include="TS.EntityFrameworkCore.GenericRepository" Version="9.0.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\RentCarServer.Application\RentCarServer.Application.csproj" />
     <ProjectReference Include="..\RentCarServer.Domain\RentCarServer.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Configurations\" />
   </ItemGroup>
 
 </Project>
