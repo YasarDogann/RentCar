@@ -1,8 +1,11 @@
 import { ChangeDetectionStrategy, Component, inject, OnInit, ViewEncapsulation } from '@angular/core';
 import { BreadcrumbService } from '../../services/breadcrumb';
+import Blank from '../../components/blank/blank';
 
 @Component({
-  imports: [],
+  imports: [
+    Blank
+  ],
   templateUrl: './dashboard.html',
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
@@ -12,6 +15,5 @@ export default class Dashboard implements OnInit {
 
   ngOnInit(): void {
     this.#breadcrumb.setDashboard();
-    throw new Error('Method not implemented.');
   }
 }
