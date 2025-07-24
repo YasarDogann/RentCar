@@ -6758,3 +6758,6 @@ body {
     animation: fadeInPhoto 0.5s ease-out;
 }
 
+a{
+    cursor: pointer;
+}
