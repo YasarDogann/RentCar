@@ -4,8 +4,8 @@ import { FormsModule, NgForm } from '@angular/forms';
 // import { Result } from '../../models/result.model';
 import { Router } from '@angular/router';
 import { FormValidateDirective } from 'form-validate-angular';
-import { HttpService } from '../../services/http';
 import { FlexiToastService } from 'flexi-toast';
+import { HttpService } from '../../../services/http';
 
 @Component({
   imports: [

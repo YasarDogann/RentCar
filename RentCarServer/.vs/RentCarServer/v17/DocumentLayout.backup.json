@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\RentCar\\RentCarServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|solutionrelative:src\\rentcarserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\auth\\forgotpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\auth\\forgotpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|solutionrelative:src\\rentcarserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.infrastructure\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Context\\ApplicationDbContext.cs",
@@ -38,18 +38,17 @@
               "RelativeToolTip": "src\\RentCarServer.Infrastructure\\Context\\ApplicationDbContext.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAowFUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T11:10:48.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T11:10:48.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ForgotPasswordCommand.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Auth\\ForgotPasswordCommand.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Auth\\ForgotPasswordCommand.cs",
               "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Auth\\ForgotPasswordCommand.cs",
               "RelativeToolTip": "src\\RentCarServer.Application\\Auth\\ForgotPasswordCommand.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCwAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACABAAAAAAAAAAAkwC8BAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T08:58:20.402Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "src\\RentCarServer.Infrastructure\\Configurations\\UserConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T08:54:35.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T08:54:35.994Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "src\\RentCarServer.Domain\\Users\\User.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAA7wC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T08:38:40.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T08:38:40.904Z"
             }
           ]
         }
