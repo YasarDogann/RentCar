@@ -1,14 +1,18 @@
 import { NgClass } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, ElementRef, inject, signal, viewChild, ViewEncapsulation } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
+import Loading from '../../../components/loading/loading';
 import { HttpService } from '../../../services/http';
 import { FlexiToastService } from 'flexi-toast';
+import { httpResource } from '@angular/common/http';
 
 @Component({
   imports: [
     FormsModule,
-    NgClass
+    NgClass,
+    RouterLink,
+    Loading
   ],
   templateUrl: './reset-password.html',
   encapsulation: ViewEncapsulation.None,
@@ -16,6 +20,9 @@ import { FlexiToastService } from 'flexi-toast';
 })
 export default class ResetPassword {
   readonly id = signal<string>("");
+  readonly result = httpResource(() => `/rent/auth/check-forgot-password-code/${this.id()}`);
+  readonly resultLoading = computed(() => this.result.isLoading());
+  readonly error = computed(() => this.result.error());
   readonly loading = signal<boolean>(false);
   readonly password = signal<string>("");
   readonly confirmPassword = signal<string>("");
@@ -99,7 +106,7 @@ export default class ResetPassword {
     if (this.isFormValid()) {
       const data = {
         forgotPasswordId: this.id(),
-        newPassowrd: this.password()
+        newPassword: this.password()
       }
 
       this.loading.set(true);

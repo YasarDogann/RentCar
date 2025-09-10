@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\RentCarServer.Application",
+    "\\src\\RentCarServer.Application\\Auth",
+    "\\src\\RentCarServer.Application\\Behaviors"
   ],
-  "SelectedNode": "\\RentCarServer.slnx",
+  "SelectedNode": "\\src\\RentCarServer.Application\\Behaviors\\PermissionBehavior.cs",
   "PreviewInSolutionExplorer": false
 }
