@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\RentCar\\RentCarServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.domain\\logintokens\\logintoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|solutionrelative:src\\rentcarserver.domain\\logintokens\\logintoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.infrastructure\\configurations\\logintokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|solutionrelative:src\\rentcarserver.infrastructure\\configurations\\logintokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.domain\\logintokens\\logintoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|solutionrelative:src\\rentcarserver.domain\\logintokens\\logintoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginTokenConfiguration.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Configurations\\LoginTokenConfiguration.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Configurations\\LoginTokenConfiguration.cs",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "LoginToken.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\LoginTokens\\LoginToken.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\LoginTokens\\LoginToken.cs",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JwtProvider.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Services\\JwtProvider.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Services\\JwtProvider.cs",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Auth\\LoginCommand.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Auth\\LoginCommand.cs",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IJwtProvider.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Services\\IJwtProvider.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Services\\IJwtProvider.cs",
