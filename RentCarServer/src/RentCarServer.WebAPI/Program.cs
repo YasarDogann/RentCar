@@ -5,6 +5,7 @@ using RentCarServer.Application;
 using RentCarServer.Application.Services;
 using RentCarServer.Infrastructure;
 using RentCarServer.WebAPI;
+using RentCarServer.WebAPI.Middlewares;
 using RentCarServer.WebAPI.Modules;
 using Scalar.AspNetCore;
 
@@ -67,6 +68,8 @@ builder.Services.AddResponseCompression(opt =>
     opt.EnableForHttps = true;
 });
 
+builder.Services.AddTransient<CheckTokenMiddleware>();
+
 var app = builder.Build();
 app.MapOpenApi();
 app.MapScalarApiReference();
@@ -80,19 +83,14 @@ app.UseResponseCompression();
 
 app.UseAuthentication();
 app.UseAuthorization();
-
-app.UseRateLimiter();
 app.UseExceptionHandler(); // Excepiton handler middleware çaðýr
-
+app.UseMiddleware<CheckTokenMiddleware>();
+app.UseRateLimiter();
 app.MapControllers()
     .RequireRateLimiting("fixed")
     .RequireAuthorization();
 app.MapAuth();
 
-app.MapGet("/", async (IMailService mailService) =>
-{
-    await mailService.SendAsync("yasardgn99@gmail.com", "Test", "<h1><b>Bu bir test mailidir</b></h1>", default);
-    return Results.Ok();
-});
+app.MapGet("/", () => "Merhaba").RequireAuthorization(); // test için
 //await app.CreateFirstUser();
 app.Run();

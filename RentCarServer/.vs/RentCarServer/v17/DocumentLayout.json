@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\RentCar\\RentCarServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.domain\\logintokens\\logintoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|solutionrelative:src\\rentcarserver.domain\\logintokens\\logintoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6488DFE-1BF0-4FCA-A4B8-A76587044E59}|src\\RentCarServer.WebAPI\\RentCarServer.WebAPI.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.webapi\\middlewares\\checktokenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6488DFE-1BF0-4FCA-A4B8-A76587044E59}|src\\RentCarServer.WebAPI\\RentCarServer.WebAPI.csproj|solutionrelative:src\\rentcarserver.webapi\\middlewares\\checktokenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.infrastructure\\configurations\\logintokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|solutionrelative:src\\rentcarserver.infrastructure\\configurations\\logintokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\auth\\resetpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\auth\\resetpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|solutionrelative:src\\rentcarserver.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6488DFE-1BF0-4FCA-A4B8-A76587044E59}|src\\RentCarServer.WebAPI\\RentCarServer.WebAPI.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.webapi\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6488DFE-1BF0-4FCA-A4B8-A76587044E59}|src\\RentCarServer.WebAPI\\RentCarServer.WebAPI.csproj|solutionrelative:src\\rentcarserver.webapi\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginTokenConfiguration.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Configurations\\LoginTokenConfiguration.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Configurations\\LoginTokenConfiguration.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Configurations\\LoginTokenConfiguration.cs",
-              "RelativeToolTip": "src\\RentCarServer.Infrastructure\\Configurations\\LoginTokenConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CheckTokenMiddleware.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.WebAPI\\Middlewares\\CheckTokenMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.WebAPI\\Middlewares\\CheckTokenMiddleware.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.WebAPI\\Middlewares\\CheckTokenMiddleware.cs",
+              "RelativeToolTip": "src\\RentCarServer.WebAPI\\Middlewares\\CheckTokenMiddleware.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T17:06:26.796Z",
+              "WhenOpened": "2025-09-15T08:52:50.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginToken.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\LoginTokens\\LoginToken.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\LoginTokens\\LoginToken.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\LoginTokens\\LoginToken.cs",
-              "RelativeToolTip": "src\\RentCarServer.Domain\\LoginTokens\\LoginToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ResetPasswordCommand.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Auth\\ResetPasswordCommand.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Auth\\ResetPasswordCommand.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Auth\\ResetPasswordCommand.cs",
+              "RelativeToolTip": "src\\RentCarServer.Application\\Auth\\ResetPasswordCommand.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDQAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T17:00:32.997Z",
+              "WhenOpened": "2025-09-15T08:21:06.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JwtProvider.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Services\\JwtProvider.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Services\\JwtProvider.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Services\\JwtProvider.cs",
-              "RelativeToolTip": "src\\RentCarServer.Infrastructure\\Services\\JwtProvider.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
+              "Title": "ExceptionHandler.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.WebAPI\\ExceptionHandler.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.WebAPI\\ExceptionHandler.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.WebAPI\\ExceptionHandler.cs",
+              "RelativeToolTip": "src\\RentCarServer.WebAPI\\ExceptionHandler.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T16:52:06.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginCommand.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Auth\\LoginCommand.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Auth\\LoginCommand.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Auth\\LoginCommand.cs",
-              "RelativeToolTip": "src\\RentCarServer.Application\\Auth\\LoginCommand.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA0wCoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T16:51:44.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IJwtProvider.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Services\\IJwtProvider.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Services\\IJwtProvider.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Services\\IJwtProvider.cs",
-              "RelativeToolTip": "src\\RentCarServer.Application\\Services\\IJwtProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T16:50:11.558Z",
+              "WhenOpened": "2025-09-15T07:42:08.915Z",
               "EditorCaption": ""
             }
           ]
