@@ -99,5 +99,10 @@ public sealed class User : Entity
         TFAExpiresDate = new(expires);
         TFAIsCompleted = new(false);
     }
+
+    public void SetTFACompleted()
+    {
+        TFAIsCompleted = new(true);
+    }
     #endregion
 }
