@@ -1,5 +1,5 @@
 ﻿using GenericRepository;
-using RentCarServer.Domain.Branchs;
+using RentCarServer.Domain.Branches;
 using RentCarServer.Infrastructure.Context;
 
 namespace RentCarServer.Infrastructure.Repositories;

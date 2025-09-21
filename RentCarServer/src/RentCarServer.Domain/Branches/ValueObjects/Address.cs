@@ -1,4 +1,4 @@
-﻿namespace RentCarServer.Domain.Branchs.ValueObjects;
+﻿namespace RentCarServer.Domain.Branches.ValueObjects;
 
 public sealed record Address(
     string City,
