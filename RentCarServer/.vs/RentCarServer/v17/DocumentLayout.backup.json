@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\RentCar\\RentCarServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\branches\\branchgetquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\branches\\branchgetquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\branches\\branchgetallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\branches\\branchgetallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.domain\\abstractions\\entitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|solutionrelative:src\\rentcarserver.domain\\abstractions\\entitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6488DFE-1BF0-4FCA-A4B8-A76587044E59}|src\\RentCarServer.WebAPI\\RentCarServer.WebAPI.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.webapi\\controllers\\odatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6488DFE-1BF0-4FCA-A4B8-A76587044E59}|src\\RentCarServer.WebAPI\\RentCarServer.WebAPI.csproj|solutionrelative:src\\rentcarserver.webapi\\controllers\\odatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.domain\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|solutionrelative:src\\rentcarserver.domain\\abstractions\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EntityDto.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Abstractions\\EntityDto.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\Abstractions\\EntityDto.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Abstractions\\EntityDto.cs",
-              "RelativeToolTip": "src\\RentCarServer.Domain\\Abstractions\\EntityDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BranchGetQuery.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Branches\\BranchGetQuery.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Branches\\BranchGetQuery.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Branches\\BranchGetQuery.cs",
+              "RelativeToolTip": "src\\RentCarServer.Application\\Branches\\BranchGetQuery.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCUAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T06:57:50.59Z",
+              "WhenOpened": "2025-09-23T10:07:19.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Abstractions\\Entity.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\Abstractions\\Entity.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Abstractions\\Entity.cs",
+              "RelativeToolTip": "src\\RentCarServer.Domain\\Abstractions\\Entity.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T10:06:12.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BranchGetAllQuery.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Branches\\BranchGetAllQuery.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Branches\\BranchGetAllQuery.cs",
               "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Branches\\BranchGetAllQuery.cs",
               "RelativeToolTip": "src\\RentCarServer.Application\\Branches\\BranchGetAllQuery.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T06:57:17.119Z",
+              "WhenOpened": "2025-09-23T10:00:16.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ODataController.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.WebAPI\\Controllers\\ODataController.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.WebAPI\\Controllers\\ODataController.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.WebAPI\\Controllers\\ODataController.cs",
+              "RelativeToolTip": "src\\RentCarServer.WebAPI\\Controllers\\ODataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:51:26.546Z",
               "EditorCaption": ""
             }
           ]
