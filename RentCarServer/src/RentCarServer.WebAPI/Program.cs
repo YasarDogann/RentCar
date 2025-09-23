@@ -91,6 +91,7 @@ app.MapControllers()
     .RequireRateLimiting("fixed")
     .RequireAuthorization();
 app.MapAuth();
+app.MapBranch();
 
 app.MapGet("/", () => "Merhaba").RequireAuthorization(); // test için
 //await app.CreateFirstUser();
