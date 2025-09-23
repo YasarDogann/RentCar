@@ -43,7 +43,7 @@ internal sealed class BranchUpdateCommandHandler(
         branch.SetName(name);
         branch.SetAddress(address);
         branch.SetStatus(request.IsActive); // Entity
-
+        branchRepository.Update(branch);
         await unitOfWork.SaveChangesAsync(cancellationToken); // tracking aktif burada ama olmasa update metodunu da çağırmalısın
 
         return "Şube bilgisi başarıyla güncellendi";
