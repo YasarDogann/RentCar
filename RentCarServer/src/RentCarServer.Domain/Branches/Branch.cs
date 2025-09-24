@@ -1,6 +1,6 @@
 ﻿using RentCarServer.Domain.Abstractions;
-using RentCarServer.Domain.Branches.ValueObjects;
 using RentCarServer.Domain.LoginTokens.ValueObjects;
+using RentCarServer.Domain.Shared;
 
 namespace RentCarServer.Domain.Branches;
 public sealed class Branch : Entity
