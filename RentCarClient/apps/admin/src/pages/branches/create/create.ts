@@ -1,11 +1,9 @@
-import Loading from '@admin/components/loading/loading';
 import { NgClass } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, linkedSignal, resource, signal, ViewEncapsulation } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import Blank from 'apps/admin/src/components/blank/blank';
 import { BranchModel, initialBranch } from 'apps/admin/src/models/branch.model';
-// import Loading from 'apps/admin/src/components/loading/loading';
 import { BreadcrumbModel, BreadcrumbService } from 'apps/admin/src/services/breadcrumb';
 import { HttpService } from 'apps/admin/src/services/http';
 import { FlexiToastService } from 'flexi-toast';
@@ -19,7 +17,6 @@ import { lastValueFrom } from 'rxjs';
     FormsModule,
     FormValidateDirective,
     NgClass,
-    Loading,
     NgxMaskDirective
   ],
   templateUrl: './create.html', 
