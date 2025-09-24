@@ -5,8 +5,7 @@
   <div class="page-header">
     <div class="page-title">
       <h1>
-        <i class="bi text-primary me-2" [ngClass]="pageIcon()"></i
-        >{{pageTitle()}}
+        <i class="bi text-primary me-2" [ngClass]="pageIcon()"></i>{{pageTitle()}}
       </h1>
       <p class="page-subtitle">{{pageDescription()}}</p>
     </div>
@@ -19,20 +18,31 @@
         <span class="badge bg-danger">PASİF</span>
         }
       </div>
-      } @if(showBackBtn()){
-        <!-- <a class="btn btn-outline-secondary" (click)="back()" tabindex="0">
+      }
+      @if(showStatusCheckbox()){
+      <div class="form-check form-switch">
+        <input 
+          class="form-check-input" 
+          type="checkbox" 
+          id="isActive" 
+          [checked]="status()"
+          (change)="changeStatus($event)">
+        <label class="form-check-label" for="isActive">
+          <strong>Aktif Mi?</strong>
+        </label>
+      </div>
+      }
+
+      @if(showBackBtn()){
+      <!-- <a class="btn btn-outline-secondary" (click)="back()" tabindex="0">
             <i class="bi bi-arrow-left me-1"></i>Geri
         </a> -->
-        <button class="btn btn-outline-secondary" (click)="back()">
-            <i class="bi bi-arrow-left me-1"></i>Geri
-        </button>
+      <button class="btn btn-outline-secondary" (click)="back()">
+        <i class="bi bi-arrow-left me-1"></i>Geri
+      </button>
       } @if(showEditBtn()){
       <div class="btn-group">
-        <button
-          [routerLink]="editBtnUrl()"
-          type="button"
-          class="btn btn-primary"
-        >
+        <button [routerLink]="editBtnUrl()" type="button" class="btn btn-primary">
           <i class="bi bi-pencil me-1"></i>Düzenle
         </button>
       </div>
