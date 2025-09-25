@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RentCarServer.Application.Behaviors;
 using RentCarServer.Domain.Branches;
 using RentCarServer.Domain.Users;
 using TS.MediatR;
 using TS.Result;
 
 namespace RentCarServer.Application.Branches;
+[Permission("branch:view")]
 public sealed record BranchGetQuery(
     Guid Id) : IRequest<Result<BranchDto>>;
 
