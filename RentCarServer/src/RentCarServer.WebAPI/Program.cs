@@ -94,6 +94,7 @@ app.MapControllers()
     .RequireAuthorization();
 app.MapAuth();
 app.MapBranch();
+app.MapRole();
 
 app.MapGet("/", () => "Merhaba").RequireAuthorization(); // test için
 //await app.CreateFirstUser();
