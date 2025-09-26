@@ -6848,3 +6848,7 @@ a{
     gap:5px;
     font-size: 13px;
 }
+
+.flexi-treeview-caption h2{
+    font-size: 25px;
+}
