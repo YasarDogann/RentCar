@@ -98,6 +98,6 @@ app.MapRole();
 app.MapPermission();
 
 app.MapGet("/", () => "Merhaba").RequireAuthorization(); // test için
-await app.CreateFirstUser();
+//await app.CreateFirstUser();
 await app.CleanRemovedPermissionsFromRoleAsync();
 app.Run();
