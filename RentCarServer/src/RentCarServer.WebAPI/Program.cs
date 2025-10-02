@@ -97,6 +97,7 @@ app.MapBranch();
 app.MapRole();
 app.MapPermission();
 app.MapUser();
+app.MapCategory();
 
 app.MapGet("/", () => "Merhaba").RequireAuthorization(); // test için
 //await app.CreateFirstUser();
