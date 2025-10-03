@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using GenericRepository;
+using RentCarServer.Application.Behaviors;
 using RentCarServer.Domain.Categories;
 using RentCarServer.Domain.Shared;
 using TS.MediatR;
@@ -7,6 +8,7 @@ using TS.Result;
 
 namespace RentCarServer.Application.Categories;
 
+[Permission("category:update")]
 public sealed record CategoryUpdateCommand(
     Guid Id,
     string Name,
