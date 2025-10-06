@@ -18,8 +18,8 @@ public sealed class ProtectionPackageCreateCommandValidator : AbstractValidator<
 {
     public ProtectionPackageCreateCommandValidator()
     {
-        RuleFor(p => p.Name).NotEmpty().WithMessage("Geçerli bir paket adý girin");
-        RuleFor(p => p.Price).GreaterThan(0).WithMessage("Fiyat pozitif olmalý");
+        RuleFor(p => p.Name).NotEmpty().WithMessage("Geçerli bir paket adı girin");
+        RuleFor(p => p.Price).GreaterThan(0).WithMessage("Fiyat pozitif olmalı");
     }
 }
 
@@ -31,7 +31,7 @@ internal sealed class ProtectionPackageCreateCommandHandler(
     {
         var nameExists = await repository.AnyAsync(p => p.Name.Value == request.Name, cancellationToken);
         if (nameExists)
-            return Result<string>.Failure("Paket adý daha önce tanýmlanmýþ");
+            return Result<string>.Failure("Paket adı daha önce tanımlanmış");
 
         Name name = new(request.Name);
         Price price = new(request.Price);
@@ -43,6 +43,6 @@ internal sealed class ProtectionPackageCreateCommandHandler(
         repository.Add(package);
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
-        return "Güvence paketi baþarýyla kaydedildi";
+        return "Güvence paketi başarıyla kaydedildi";
     }
 }

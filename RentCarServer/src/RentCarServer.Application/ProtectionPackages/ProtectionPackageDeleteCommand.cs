@@ -15,12 +15,12 @@ internal sealed class ProtectionPackageDeleteCommandHandler(
     {
         var package = await repository.FirstOrDefaultAsync(p => p.Id == request.Id, cancellationToken);
         if (package is null)
-            return Result<string>.Failure("Güvence paketi bulunamadý");
+            return Result<string>.Failure("Güvence paketi bulunamadı");
 
         package.Delete();
         repository.Update(package);
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
-        return "Güvence paketi baþarýyla silindi";
+        return "Güvence paketi başarıyla silindi";
     }
 }
