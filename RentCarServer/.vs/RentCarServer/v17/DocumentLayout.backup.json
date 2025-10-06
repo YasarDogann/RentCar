@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\RentCar\\RentCarServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Migrations\\20251005104413_i_added_protection_package_able.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RentCarServer.Infrastructure\\Migrations\\20251005104413_i_added_protection_package_able.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.infrastructure\\repositories\\protectionpackagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|solutionrelative:src\\rentcarserver.infrastructure\\repositories\\protectionpackagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,6 +51,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20251005104413_i_added_protection_package_able.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Migrations\\20251005104413_i_added_protection_package_able.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Migrations\\20251005104413_i_added_protection_package_able.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Migrations\\20251005104413_i_added_protection_package_able.cs",
+              "RelativeToolTip": "src\\RentCarServer.Infrastructure\\Migrations\\20251005104413_i_added_protection_package_able.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T10:44:13.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProtectionPackageRepository.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Repositories\\ProtectionPackageRepository.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Repositories\\ProtectionPackageRepository.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Context\\ApplicationDbContext.cs",
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProtectionPackageConfiguration.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Configurations\\ProtectionPackageConfiguration.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Configurations\\ProtectionPackageConfiguration.cs",
@@ -85,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProtectionPackage.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\ProtectionPackages\\ProtectionPackage.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\ProtectionPackages\\ProtectionPackage.cs",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProtectionCoverage.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\ProtectionPackages\\ProtectionCoverage.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\ProtectionPackages\\ProtectionCoverage.cs",
@@ -111,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Price.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\ProtectionPackages\\Price.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\ProtectionPackages\\Price.cs",
@@ -124,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IsRecommended.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\ProtectionPackages\\IsRecommended.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\ProtectionPackages\\IsRecommended.cs",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IProtectionPackageRepository.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\ProtectionPackages\\IProtectionPackageRepository.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\ProtectionPackages\\IProtectionPackageRepository.cs",
