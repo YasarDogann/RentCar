@@ -43,5 +43,11 @@ export const navigations: NavigationModel[] = [
         url: '/users',
         icon: 'bi-people',
         permission: 'user:view'
+    },
+    {
+        title: 'Ekstralar',
+        url: '/extra',
+        icon: 'bi-plus-square',
+        permission: 'extra:view'
     }
 ]
