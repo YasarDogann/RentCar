@@ -84,6 +84,7 @@ app.UseCors(x => x
 .SetPreflightMaxAge(TimeSpan.FromMinutes(10)));
 app.UseResponseCompression();
 
+app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseExceptionHandler(); // Excepiton handler middleware çaðýr
