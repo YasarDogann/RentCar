@@ -294,7 +294,7 @@
               (click)="triggerFileInput()"
             >
               <img
-                [src]="`https://localhost:7145/images/${data().imageUrl}` || '/no-noimage.png'"
+                [src]="showImageUrl()"
                 alt="Araç Fotoğrafı"
                 class="img-fluid mb-2"
                 style="max-width: 100%; max-height: 400px; object-fit:cover; display:block; margin:auto;"

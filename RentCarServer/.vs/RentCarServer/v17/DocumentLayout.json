@@ -3,40 +3,8 @@
   "WorkspaceRootPath": "D:\\RentCar\\RentCarServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.infrastructure\\migrations\\20251014111227_i_changed_datetimeoffset_to_dateonly_in_the_vehicle_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|solutionrelative:src\\rentcarserver.infrastructure\\migrations\\20251014111227_i_changed_datetimeoffset_to_dateonly_in_the_vehicle_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\vehicles\\vehicleupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\vehicles\\vehicleupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\vehicles\\vehiclecreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\vehicles\\vehiclecreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.domain\\vehicles\\valueobjects\\lastmaintenancedate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|solutionrelative:src\\rentcarserver.domain\\vehicles\\valueobjects\\lastmaintenancedate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.domain\\vehicles\\valueobjects\\insuranceenddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|solutionrelative:src\\rentcarserver.domain\\vehicles\\valueobjects\\insuranceenddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.domain\\vehicles\\valueobjects\\inspectiondate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|solutionrelative:src\\rentcarserver.domain\\vehicles\\valueobjects\\inspectiondate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.domain\\vehicles\\valueobjects\\cascoenddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|solutionrelative:src\\rentcarserver.domain\\vehicles\\valueobjects\\cascoenddate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.domain\\vehicles\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|solutionrelative:src\\rentcarserver.domain\\vehicles\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\vehicles\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\vehicles\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,118 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20251014111227_i_changed_datetimeoffset_to_dateonly_in_the_vehicle_table.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Migrations\\20251014111227_i_changed_datetimeoffset_to_dateonly_in_the_vehicle_table.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Migrations\\20251014111227_i_changed_datetimeoffset_to_dateonly_in_the_vehicle_table.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Migrations\\20251014111227_i_changed_datetimeoffset_to_dateonly_in_the_vehicle_table.cs",
-              "RelativeToolTip": "src\\RentCarServer.Infrastructure\\Migrations\\20251014111227_i_changed_datetimeoffset_to_dateonly_in_the_vehicle_table.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T11:12:28.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Vehicles\\Vehicle.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\Vehicles\\Vehicle.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Vehicles\\Vehicle.cs",
-              "RelativeToolTip": "src\\RentCarServer.Domain\\Vehicles\\Vehicle.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:51:32.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LastMaintenanceDate.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\LastMaintenanceDate.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\LastMaintenanceDate.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\LastMaintenanceDate.cs",
-              "RelativeToolTip": "src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\LastMaintenanceDate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:51:09.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InsuranceEndDate.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\InsuranceEndDate.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\InsuranceEndDate.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\InsuranceEndDate.cs",
-              "RelativeToolTip": "src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\InsuranceEndDate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:51:02.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InspectionDate.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\InspectionDate.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\InspectionDate.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\InspectionDate.cs",
-              "RelativeToolTip": "src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\InspectionDate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:50:55.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "VehicleUpdateCommand.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Vehicles\\VehicleUpdateCommand.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Vehicles\\VehicleUpdateCommand.cs",
               "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Vehicles\\VehicleUpdateCommand.cs",
               "RelativeToolTip": "src\\RentCarServer.Application\\Vehicles\\VehicleUpdateCommand.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAMwCwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwEoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:46:34.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VehicleCreateCommand.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Vehicles\\VehicleCreateCommand.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Vehicles\\VehicleCreateCommand.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Vehicles\\VehicleCreateCommand.cs",
-              "RelativeToolTip": "src\\RentCarServer.Application\\Vehicles\\VehicleCreateCommand.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAnwCsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:40:13.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CascoEndDate.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\CascoEndDate.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\CascoEndDate.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\CascoEndDate.cs",
-              "RelativeToolTip": "src\\RentCarServer.Domain\\Vehicles\\ValueObjects\\CascoEndDate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:50:45.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VehicleDto.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Vehicles\\VehicleDto.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Vehicles\\VehicleDto.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Vehicles\\VehicleDto.cs",
-              "RelativeToolTip": "src\\RentCarServer.Application\\Vehicles\\VehicleDto.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwCMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:46:00.637Z",
+              "WhenOpened": "2025-10-14T11:51:26.759Z",
               "EditorCaption": ""
             }
           ]
