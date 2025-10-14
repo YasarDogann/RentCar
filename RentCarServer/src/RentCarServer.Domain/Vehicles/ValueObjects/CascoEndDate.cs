@@ -1,3 +1,3 @@
 ﻿namespace RentCarServer.Domain.Vehicles.ValueObjects;
 
-public sealed record CascoEndDate(DateTimeOffset Value);
+public sealed record CascoEndDate(DateOnly Value);
