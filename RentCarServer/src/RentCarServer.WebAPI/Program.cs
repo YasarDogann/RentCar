@@ -102,6 +102,7 @@ app.MapCategory();
 app.MapProtectionPackage();
 app.MapExtra();
 app.MapVehicle();
+app.MapSeedData();
 
 app.MapGet("/", () => "Merhaba").RequireAuthorization(); // test için
 //await app.CreateFirstUser();
