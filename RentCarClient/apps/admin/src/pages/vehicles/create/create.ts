@@ -33,7 +33,7 @@ export const brandList = [
     'BMW'
   ];
 
-  export const colorList = [
+export const colorList = [
     'Beyaz',
     'Siyah',
     'Gri',
@@ -46,7 +46,7 @@ export const brandList = [
     'Mor'
   ];
 
-  export const modelYearList = Array.from({length: 16}, (_, i) => 2010 + i);
+export const modelYearList = Array.from({length: 16}, (_, i) => 2010 + i);
 
 @Component({
   imports: [
