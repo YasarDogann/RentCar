@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\RentCar\\RentCarServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.domain\\reservations\\valueobjects\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E83C489-7EE0-4D09-B58E-1725717DE284}|src\\RentCarServer.Domain\\RentCarServer.Domain.csproj|solutionrelative:src\\rentcarserver.domain\\reservations\\valueobjects\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\reservations\\reservationupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\reservations\\reservationupdatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\reservations\\reservationcreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Status.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Reservations\\ValueObjects\\Status.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\Reservations\\ValueObjects\\Status.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Reservations\\ValueObjects\\Status.cs",
-              "RelativeToolTip": "src\\RentCarServer.Domain\\Reservations\\ValueObjects\\Status.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA7AAAAAAAAAA==",
+              "Title": "ReservationUpdateCommand.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationUpdateCommand.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Reservations\\ReservationUpdateCommand.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationUpdateCommand.cs",
+              "RelativeToolTip": "src\\RentCarServer.Application\\Reservations\\ReservationUpdateCommand.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAcwJ4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T17:01:18.099Z",
+              "WhenOpened": "2026-01-06T17:09:31.723Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +41,9 @@
               "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Reservations\\ReservationCreateCommand.cs",
               "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationCreateCommand.cs",
               "RelativeToolTip": "src\\RentCarServer.Application\\Reservations\\ReservationCreateCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T17:00:42.441Z",
+              "WhenOpened": "2026-01-06T17:08:30.884Z",
               "EditorCaption": ""
             }
           ]
