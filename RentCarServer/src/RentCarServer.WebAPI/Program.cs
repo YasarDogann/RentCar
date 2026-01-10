@@ -104,6 +104,7 @@ app.MapExtra();
 app.MapVehicle();
 //app.MapSeedData();
 app.MapCustomer();
+app.MapReservation();
 
 app.MapGet("/", () => "Merhaba").RequireAuthorization(); // test için
 //await app.CreateFirstUser();
