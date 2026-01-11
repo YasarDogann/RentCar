@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\RentCar\\RentCarServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\reservations\\reservationgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\reservations\\reservationgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\reservations\\reservationgetquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\reservations\\reservationgetquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\reservations\\reservationgetallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\reservations\\reservationgetallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.application\\reservations\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A54B70-A1C4-4BC8-B46E-7D055CB14CAA}|src\\RentCarServer.Application\\RentCarServer.Application.csproj|solutionrelative:src\\rentcarserver.application\\reservations\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReservationGetDto.cs",
-              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationGetDto.cs",
-              "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Reservations\\ReservationGetDto.cs",
-              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationGetDto.cs",
-              "RelativeToolTip": "src\\RentCarServer.Application\\Reservations\\ReservationGetDto.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAA8wD4AAAABAAAAAAAAAA==",
+              "Title": "ReservationGetQuery.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationGetQuery.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Reservations\\ReservationGetQuery.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationGetQuery.cs",
+              "RelativeToolTip": "src\\RentCarServer.Application\\Reservations\\ReservationGetQuery.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T19:27:22.735Z",
+              "WhenOpened": "2026-01-09T18:31:34.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationGetAllQuery.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationGetAllQuery.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Reservations\\ReservationGetAllQuery.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationGetAllQuery.cs",
+              "RelativeToolTip": "src\\RentCarServer.Application\\Reservations\\ReservationGetAllQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T18:30:52.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationDto.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationDto.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Reservations\\ReservationDto.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationDto.cs",
+              "RelativeToolTip": "src\\RentCarServer.Application\\Reservations\\ReservationDto.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAYwLEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T18:30:28.037Z",
               "EditorCaption": ""
             }
           ]
