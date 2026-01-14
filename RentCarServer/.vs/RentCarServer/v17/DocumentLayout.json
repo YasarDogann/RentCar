@@ -42,8 +42,7 @@
               "RelativeToolTip": "src\\RentCarServer.Application\\Reservations\\ReservationUpdateCommand.cs",
               "ViewState": "AgIAAHQAAAAAAAAAAAAkwG8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:42:03.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T18:42:03.051Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "src\\RentCarServer.Application\\Reservations\\ReservationGetAllQuery.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:34:45.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T18:34:45.869Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "src\\RentCarServer.Application\\Reservations\\ReservationDto.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAAuwJ0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:29:55.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T18:29:55.955Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "src\\RentCarServer.Application\\Reservations\\ReservationCreateCommand.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAowG4AAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:28:06.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T18:28:06.683Z"
             }
           ]
         }

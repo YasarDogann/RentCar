@@ -9,7 +9,7 @@ export interface ReservationModel extends EntityModel {
     email: string;
     fullAddress: string;
   };
-  pickUpLocationId: string;
+  pickUpLocationId?: string;
   pickUp: {
     name: string;
     fullAddress: string;
@@ -59,17 +59,17 @@ export const initialReservation: ReservationModel = {
     email: '',
     fullAddress: ''
   },
-  pickUpLocationId: '',
+  // pickUpLocationId: '',
   pickUp: {
     name: '',
     fullAddress: '',
     phoneNumber: ''
   },
-  pickUpDate: '',
+  pickUpDate: '09:00',
   pickUpTime: '',
   pickUpDateTime: '',
   deliveryDate: '',
-  deliveryTime: '',
+  deliveryTime: '09:00',
   deliveryDateTime: '',
   vehicleId: '',
   vehicleDailyPrice: 0,
