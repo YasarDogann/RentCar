@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\RentCar\\RentCarServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.infrastructure\\migrations\\20260115185305_i_added_datetime_for_reservation_pickup_and_delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060C15D6-AE32-49F3-972A-4643DDF96749}|src\\RentCarServer.Infrastructure\\RentCarServer.Infrastructure.csproj|solutionrelative:src\\rentcarserver.infrastructure\\migrations\\20260115185305_i_added_datetime_for_reservation_pickup_and_delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6488DFE-1BF0-4FCA-A4B8-A76587044E59}|src\\RentCarServer.WebAPI\\RentCarServer.WebAPI.csproj|d:\\rentcar\\rentcarserver\\src\\rentcarserver.webapi\\modules\\reservationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6488DFE-1BF0-4FCA-A4B8-A76587044E59}|src\\RentCarServer.WebAPI\\RentCarServer.WebAPI.csproj|solutionrelative:src\\rentcarserver.webapi\\modules\\reservationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20260115185305_i_added_datetime_for_reservation_pickup_and_delivery.cs",
+              "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Migrations\\20260115185305_i_added_datetime_for_reservation_pickup_and_delivery.cs",
+              "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Migrations\\20260115185305_i_added_datetime_for_reservation_pickup_and_delivery.cs",
+              "ToolTip": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Migrations\\20260115185305_i_added_datetime_for_reservation_pickup_and_delivery.cs",
+              "RelativeToolTip": "src\\RentCarServer.Infrastructure\\Migrations\\20260115185305_i_added_datetime_for_reservation_pickup_and_delivery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:53:06.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ReservationModule.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.WebAPI\\Modules\\ReservationModule.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.WebAPI\\Modules\\ReservationModule.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ReservationConfiguration.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Infrastructure\\Configurations\\ReservationConfiguration.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Infrastructure\\Configurations\\ReservationConfiguration.cs",
@@ -64,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Reservation.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Domain\\Reservations\\Reservation.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Domain\\Reservations\\Reservation.cs",
@@ -77,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ReservationUpdateCommand.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationUpdateCommand.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Reservations\\ReservationUpdateCommand.cs",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ReservationGetAllVehicleQuery.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationGetAllVehicleQuery.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Reservations\\ReservationGetAllVehicleQuery.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ReservationDto.cs",
               "DocumentMoniker": "D:\\RentCar\\RentCarServer\\src\\RentCarServer.Application\\Reservations\\ReservationDto.cs",
               "RelativeDocumentMoniker": "src\\RentCarServer.Application\\Reservations\\ReservationDto.cs",
