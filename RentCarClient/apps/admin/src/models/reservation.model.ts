@@ -48,6 +48,12 @@ export interface ReservationModel extends EntityModel {
   total: number;
   status: string;
   totalDay: number;
+  creditCartInformation: {
+    cartNumber: string,
+    owner:string;
+    expiry: string;
+    ccv: string;
+  }
 }
 
 export const initialReservation: ReservationModel = {
@@ -59,14 +65,13 @@ export const initialReservation: ReservationModel = {
     email: '',
     fullAddress: ''
   },
-  // pickUpLocationId: '',
   pickUp: {
     name: '',
     fullAddress: '',
     phoneNumber: ''
   },
-  pickUpDate: '09:00',
-  pickUpTime: '',
+  pickUpDate: '',
+  pickUpTime: '09:00',
   pickUpDateTime: '',
   deliveryDate: '',
   deliveryTime: '09:00',
@@ -94,6 +99,12 @@ export const initialReservation: ReservationModel = {
   total: 0,
   status: '',
   totalDay: 0,
+  creditCartInformation: {
+    cartNumber: '',
+    owner: '',
+    expiry: '',
+    ccv: ''
+  },
   id: '',
   isActive: true,
   createdAt: '',
